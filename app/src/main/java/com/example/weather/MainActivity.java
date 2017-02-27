@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Toast.makeText(this, "dfdsfds", Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, "dfdsfds", Toast.LENGTH_SHORT).show();
 
 
 
@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             Log.d("dsdd","dsd");
+            Toast.makeText(MainActivity.this, "dfdsfds", Toast.LENGTH_SHORT).show();
 
 
         }
