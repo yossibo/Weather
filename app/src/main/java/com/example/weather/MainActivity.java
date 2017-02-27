@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
@@ -29,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        Toast.makeText(this, "dfdsfds", Toast.LENGTH_SHORT).show();
+
+
 
         currentTV= (TextView) findViewById(R.id.textView);
         weatherIV= (ImageView) findViewById(R.id.imageView);
